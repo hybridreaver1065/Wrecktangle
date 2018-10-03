@@ -5,15 +5,20 @@ public class rektangle {
 	///length of the sides
 	
 	//Area, perimeter, and diagnol length each on their own line
-	System.out.print("Please enter a side length:")
+	System.out.print("Please enter a side length:");
 	double width= in.nextDouble();
 	in.nextLine();
-	System.out.print("Please enter another side length:")
+	System.out.print("Please enter another side length:");
 	double length = in.nextDouble();
 	in.nextLine();
 	
-	System.out.print("%.2f", width*length);
-	System.out.print("%.2f", Math.sqrt(Math.pow(length, 2)+ Math.pow(width, 2));
-	System.out.print("%.2f", width *2 +length *2);
+	System.out.print("The area of the rectangle is ");
+	System.out.println("%.2f", width*length);
+
+	System.out.print("The diagnol of the rectangle is ");
+	System.out.println("%.2f", Math.sqrt(Math.pow(length, 2)+ Math.pow(width, 2));
+
+	System.out.print("The perimeter of the rectangle is");
+	System.out.println("%.2f", width *2 +length *2);
 
 }
